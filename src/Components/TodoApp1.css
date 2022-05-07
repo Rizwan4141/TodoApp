@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+
+    /* background-color: rgb(25, 46, 46); */
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+.container1{
+    height: 500px ;
+    width: 500px;
+    display: block;
+}
+.container2{
+    height: 500px ;
+    width: 300px;
+}
+.btn-grad {background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 10px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ table{
+     display: block;
+     background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+ }
+.main .inp{
+    height: 50px;
+    padding: 0px 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+}
+.Ebtn {background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
+.Ebtn {
+   margin: 1px;
+   padding:1px 1px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
